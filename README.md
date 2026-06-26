@@ -1,2 +1,4 @@
 # Poker-Magic-Faro-Shuffle-Program
 This python code is a standalone code. All it does is find the shortest way to get the card we want to shift to the position we want it to go without any tricks but just faro shuffles in and out
+So this system in the version 1 and 2 would get the current code position and then generate an in Faro shuffle and an out Faro shuffle after that we would take the position of the wanted card and find the one that is closest to the wanted position. The type of shuffle that gets the card to the position as close as possible is chosen. We will loop this until we get to our wanted position. In version 3 I will program using our code logic but instead of finding the closest position everytime we would use BFS (Breadth-First Search) which is way more efficient
+
